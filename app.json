@@ -1,5 +1,5 @@
 {
-    "name": "BELLE ALICE Bot",
+    "name": "BELLE FLAURA Bot",
     "description": "Lorsque vous allez envoyer un fichier sur le canal de télégramme, ce bot l’enregistrera dans la base de données, de sorte que vous pouvez le rechercher facilement en mode en ligne",
     "logo": "https://telegra.ph/file/a2a1dac049b50dc7f8dfb.jpg",
     "stack": "container",
@@ -22,32 +22,32 @@
         "BOT_TOKEN": {
             "description": "Your bot token.",
             "required": true,
-            "value": "enteryourbottoken123456789"
+            "value": "5589578001:AAHFldpAWAEKPxiDCJse8OHhkqYgFlm4iKU"
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
             "required": true,
-            "value": "17xxxxx"
+            "value": "13608086"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
             "required": true,
-            "value": "29fd19124a1f32e915062xxxx"
+            "value": "7957dc27a108961b2973e6603c7c7aa0"
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "required": false,
-            "value": "-100xxxxxxxxxx"
+            "value": "-1001571958705"
         },
         "ADMINS": {
             "description": " ID of Admin. Separate multiple Admins by space.",
             "required": true,
-            "value": "10896xxxxx"
+            "value": "5188713336"
         },
         "BOT_USERNAME": {
             "description": "Username of Bot Without @",
             "required": true,
-            "value": "TmOfficialRobot"
+            "value": "flaurabot"
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
@@ -57,12 +57,12 @@
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true,
-            "value": "-100xxxxxxxxxx"
+            "value": "-1001757502596"
         },
         "SUPPORT_CHAT": {
             "description": "Username of a Support Group / ADMIN. ( Should be username without @ and not ID)",
             "required": false,
-            "value": "VisionsT"
+            "value": "showgroup3"
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
@@ -81,7 +81,7 @@
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
             "required": false,
-            "value": "All New Movies Available Only @VisionsTv"
+            "value": "All New Movies Available Only @showgroup3"
         },
         "UPSTREAM_REPO": {
             "description": "Don't Change Or It Won't Work",
@@ -91,12 +91,12 @@
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
             "required": true,
-            "value": "paste_your_mongodb_link"
+            "value": "mongodb+srv://tagnevini:f4btdy0t@1999@cluster0.5cjoy8s.mongodb.net/?retryWrites=true&w=majority"
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
             "required": false,
-            "value": "Cluster0"
+            "value": "Cluster1"
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
