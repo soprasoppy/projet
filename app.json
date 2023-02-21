@@ -91,7 +91,7 @@
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
             "required": true,
-            "value": "mongodb+srv://tagnevini: f4btdy0t@1999@cluster0.5z2dd.mongodb.net/?retryWrites=true&w=majority"
+            "value": "mongodb+srv://Laurenesiewe:F4btdy0t%40@cluster0.clxgj3c.mongodb.net/?retryWrites=true&w=majority"
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
