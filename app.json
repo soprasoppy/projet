@@ -22,32 +22,32 @@
         "BOT_TOKEN": {
             "description": "Your bot token.",
             "required": true,
-            "value": "5589578001:AAHFldpAWAEKPxiDCJse8OHhkqYgFlm4iKU"
+            "value": ""
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
             "required": true,
-            "value": "13608086"
+            "value": ""
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
             "required": true,
-            "value": "7957dc27a108961b2973e6603c7c7aa0"
+            "value": ""
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "required": false,
-            "value": "-1001571958705"
+            "value": ""
         },
         "ADMINS": {
             "description": " ID of Admin. Separate multiple Admins by space.",
             "required": true,
-            "value": "5188713336"
+            "value": ""
         },
         "BOT_USERNAME": {
             "description": "Username of Bot Without @",
             "required": true,
-            "value": "flaurabot"
+            "value": ""
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
@@ -57,12 +57,12 @@
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true,
-            "value": "-1001757502596"
+            "value": ""
         },
         "SUPPORT_CHAT": {
             "description": "Username of a Support Group / ADMIN. ( Should be username without @ and not ID)",
             "required": false,
-            "value": "showgroup3"
+            "value": ""
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
@@ -91,7 +91,7 @@
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
             "required": true,
-            "value": "mongodb+srv://Laurenesiewe:F4btdy0t%40@cluster0.clxgj3c.mongodb.net/?retryWrites=true&w=majority"
+            "value": ""
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
