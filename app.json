@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/SUPEREL/Elie",
-    "repository": "https://github.com/SUPEREL/Elie",
+    "website": "https://github.com/soprasoppy/projet",
+    "repository": "https://github.com/soprasoppy/projet",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -86,7 +86,7 @@
         "UPSTREAM_REPO": {
             "description": "Don't Change Or It Won't Work",
             "required": true,
-            "value": "https://github.com/SUPEREL/Elie"
+            "value": "https://github.com/soprasoppy/projet"
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
