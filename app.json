@@ -52,7 +52,7 @@
         "PICS": {
             "description": "Add some telegraph link of pictures .",
             "required": false,
-            "value": "https://telegra.ph/file/3461cf8377b034e70e071.jpg"
+            "value": "https://telegra.ph/file/b5a010193b923d561a655.jpg"
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
