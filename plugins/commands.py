@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 𝐍𝐨𝐮𝐯𝐞𝐥𝐥𝐞𝐬', url='https://t.me/flaurabot')
+                InlineKeyboardButton('🤖 𝐍𝐨𝐮𝐯𝐞𝐥𝐥𝐞𝐬', url='https://t.me/belleflaura')
             ],
             [
                 InlineKeyboardButton('ℹ️ 𝐀𝐈𝐃𝐄𝐒', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ ᴀᴊᴏᴜᴛᴇᴢ-ᴍᴏɪ ᴀ ᴠᴏs ɢʀᴏᴜᴘᴇs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 ʀᴇᴄʜᴇʀᴄʜᴇʀ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 𝐍𝐨𝐮𝐯𝐞𝐥𝐥𝐞𝐬', url='https://t.me/flaurabot')
+            InlineKeyboardButton('🤖 𝐍𝐨𝐮𝐯𝐞𝐥𝐥𝐞𝐬', url='https://t.me/belleflaura')
         ], [
             InlineKeyboardButton('ℹ️ 𝐀𝐈𝐃𝐄𝐒', callback_data='help'),
             InlineKeyboardButton('🤔 𝐀 𝐏𝐑𝐎𝐏𝐎𝐒', callback_data='about')
