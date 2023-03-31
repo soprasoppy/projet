@@ -803,7 +803,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"♨️Voici le résultat de votre requête sur 👉 <STRONG>{search}</STRONG>\n\n➥ ℝ𝕖𝕛𝕠𝕚𝕟𝕕𝕣𝕖 ➼ @flaurabot pour plus de fun😍"
+        cap = f"♨️Voici le résultat de votre requête sur 👉 <STRONG>{search}</STRONG>\n\n➥ ℝ𝕖𝕛𝕠𝕚𝕟𝕕𝕣𝕖 ➼ @belleflaura pour plus de fun😍"
     if imdb and imdb.get('poster'):
         try:
             autodelete = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
